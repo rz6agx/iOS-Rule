@@ -1,0 +1,8 @@
+# NAME: Instagram
+# AUTHOR: rz6agx
+# REPO: https://github.com/rz6agx/iOS-Rule/
+# UPDATED: 2024-12-17
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-KEYWORD,instagram
