@@ -1,0 +1,9 @@
+# NAME: Domain custom list
+# AUTHOR: rz6agx
+# REPO: https://github.com/rz6agx/iOS-Rule/
+# UPDATED: 2024-12-17
+DOMAIN-SUFFIX,abook-club.ru
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,flibusta.is
+DOMAIN-SUFFIX,meduza.io
+DOMAIN-SUFFIX,habr.com
