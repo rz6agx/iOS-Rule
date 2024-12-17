@@ -2,8 +2,13 @@
 # AUTHOR: rz6agx
 # REPO: https://github.com/rz6agx/iOS-Rule/
 # UPDATED: 2024-12-17
+DOMAIN,play.google.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,ai.google.com
 DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.dev
@@ -11,9 +16,10 @@ DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gemini.googleapis.com
 DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,gogleusercontent.com
+DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
