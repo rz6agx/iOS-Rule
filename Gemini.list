@@ -1,0 +1,31 @@
+# NAME: Gemini
+# AUTHOR: rz6agx
+# REPO: https://github.com/rz6agx/iOS-Rule/
+# UPDATED: 2024-12-17
+# DOMAIN: 12
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 8
+# TOTAL: 23
+DOMAIN,google.com
+DOMAIN,googleapis.com
+DOMAIN,googleusercontent.com
+DOMAIN,ai.google
+DOMAIL,google.dev
+DOMAIN,gstatic.com
+DOMAIN,gdoubleclick.net
+DOMAIN,cloud.google.com
+DOMAIN,genesis.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,gogleusercontent.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
