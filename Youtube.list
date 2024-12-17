@@ -1,0 +1,13 @@
+# NAME: YouTube
+# AUTHOR: rz6agx
+# REPO: https://github.com/rz6agx/iOS-Rule/
+# UPDATED: 2024-12-17
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,i.ytimg.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,youtube.googleapis.com
+DOMAIN-KEYWORD,youtub
