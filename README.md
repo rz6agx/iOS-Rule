@@ -84,5 +84,8 @@ localhost = 127.0.0.1
 - Host Settings:
   - Maps localhost to 127.0.0.1.
 
+## Special Thanks
+We would like to extend our special thanks to GitHub user **[blackmatrix7](https://github.com/blackmatrix7)** for their incredible work on the rule lists available at [ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule). Their contributions have been invaluable in creating and maintaining high-quality rule sets for tools like **ShadowRocket**.
+
 ### License
 This repository is licensed under the MIT License. See the LICENSE file for details.
