@@ -16,7 +16,7 @@ To use the rules in ShadowRocket, you need to add the raw URL of the list files 
   ```https://raw.githubusercontent.com/rz6agx/iOS-Rule/main/YouTube.list```
 
 4. Make sure the URL is in the **raw format** (it should start with https://raw.githubusercontent.com/ and end with .list).
-5. **Important**: In your **ShadowRocket** configuration, make sure the last rule is ```DIRECT```. This rule ensures that all other domains that are **not listed in the rule sets** will bypass the proxy and go directly through your regular internet connection. Only domains included in the rule sets will be routed through the proxy.
+5. **Important**: In your **ShadowRocket** configuration, make sure the last rule is `DIRECT`. This rule ensures that all other domains that are **not listed in the rule sets** will bypass the proxy and go directly through your regular internet connection. Only domains included in the rule sets will be routed through the proxy.
 
 ### Example of Configuration:
 Here’s an example configuration for ShadowRocket:
