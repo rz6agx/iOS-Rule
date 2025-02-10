@@ -19,7 +19,7 @@ To use the rules in ShadowRocket, you need to add the raw URL of the list files 
 5. **Important**: In your **ShadowRocket** configuration, make sure the last rule is `DIRECT`. This rule ensures that all other domains that are **not listed in the rule sets** will bypass the proxy and go directly through your regular internet connection. Only domains included in the rule sets will be routed through the proxy.
 
 ### Example of Configuration:
-Here’s an example configuration for ShadowRocket:
+Here's an example configuration for ShadowRocket:
 ```
 RULE-SET, https://raw.githubusercontent.com/rz6agx/iOS-Rule/main/Gemini.list, PROXY
 RULE-SET, https://raw.githubusercontent.com/rz6agx/iOS-Rule/main/YouTube.list, PROXY
