@@ -1,0 +1,45 @@
+# WhatsApp.list — чистая версия для Shadowrocket / репо rz6agx/iOS-Rule
+# Источники: HybridNetworks/whatsapp-cidr + blackmatrix7/ios_rule_script
+# Дата обновления: 2025-10-25
+
+# --- Доменные суффиксы ---
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,whatsappbrand.com
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,whatsapp.cc
+DOMAIN-SUFFIX,whatsapp.tv
+DOMAIN-SUFFIX,whatsapp.info
+
+# --- Поддомены CDN / мультимедиа ---
+DOMAIN-SUFFIX,cdn.whatsapp.net
+DOMAIN-SUFFIX,media.whatsapp.net
+DOMAIN-SUFFIX,static.whatsapp.net
+DOMAIN-SUFFIX,scontent.whatsapp.net
+DOMAIN-SUFFIX,pps.whatsapp.net
+DOMAIN-SUFFIX,mmg.whatsapp.net
+DOMAIN-SUFFIX,mmg-fna.whatsapp.net
+DOMAIN-SUFFIX,media-*.cdn.whatsapp.net
+
+# --- Точные домены ---
+DOMAIN,api.whatsapp.com
+DOMAIN,web.whatsapp.com
+DOMAIN,chat.whatsapp.com
+DOMAIN,graph.facebook.com
+
+# --- IPv4 CIDR диапазоны (актуальные примеры, берём из HybridNetworks) ---
+IP-CIDR,31.13.0.0/16
+IP-CIDR,31.13.64.0/18
+IP-CIDR,66.111.48.0/22
+IP-CIDR,157.240.0.0/16
+IP-CIDR,173.252.64.0/19
+IP-CIDR,179.60.192.0/22
+IP-CIDR,185.60.216.0/22
+IP-CIDR,204.15.20.0/22
+IP-CIDR,66.220.144.0/20
+IP-CIDR,69.171.224.0/19
+IP-CIDR,69.63.176.0/20
+IP-CIDR,74.119.76.0/22
+IP-CIDR,103.4.96.0/22
