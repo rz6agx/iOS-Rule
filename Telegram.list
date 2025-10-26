@@ -1,0 +1,51 @@
+# Telegram.list — для Shadowrocket / репо rz6agx/iOS-Rule
+# Источники: 
+#   - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Telegram
+#   - https://github.com/telegramcidr/telegramcidr
+# Дата обновления: 2025-10-26
+
+# --- Доменные суффиксы ---
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,cdn-telegram.net
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,fragment.com
+DOMAIN-SUFFIX,ton.org
+DOMAIN-SUFFIX,toncdn.net
+
+# --- Точные домены ---
+DOMAIN,api.telegram.org
+DOMAIN,core.telegram.org
+DOMAIN,web.telegram.org
+DOMAIN,venus.web.telegram.org
+DOMAIN,pluto.web.telegram.org
+DOMAIN,aurora.web.telegram.org
+DOMAIN,static.tdesktop.com
+
+# --- IPv4 CIDR (Telegram датацентры и CDN) ---
+IP-CIDR,91.105.192.0/23
+IP-CIDR,91.108.4.0/22
+IP-CIDR,91.108.8.0/21
+IP-CIDR,91.108.12.0/22
+IP-CIDR,91.108.16.0/22
+IP-CIDR,91.108.20.0/22
+IP-CIDR,91.108.36.0/23
+IP-CIDR,91.108.38.0/23
+IP-CIDR,91.108.56.0/22
+IP-CIDR,95.161.64.0/20
+IP-CIDR,149.154.160.0/20
+IP-CIDR,185.76.151.0/24
+IP-CIDR,185.76.153.0/24
+IP-CIDR,185.76.155.0/24
+
+# --- IPv6 (Telegram IPv6 адреса) ---
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:67c:4e8:f002::/64
+IP-CIDR6,2001:67c:4e8:f004::/64
+IP-CIDR6,2001:b28:f23d::/48
+IP-CIDR6,2001:b28:f23f::/48
