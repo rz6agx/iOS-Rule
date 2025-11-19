@@ -1,23 +1,40 @@
-# NAME: Domain custom list
-# AUTHOR: rz6agx
-# REPO: https://github.com/rz6agx/iOS-Rule/
-# UPDATED: 2024-12-23
-DOMAIN-SUFFIX,abook-club.ru
-DOMAIN-SUFFIX,crunchyroll.com
-DOMAIN-SUFFIX,deezer.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,flibusta.is
-DOMAIN-SUFFIX,meduza.io
-DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,habr.com
-DOMAIN-SUFFIX,roskomsvoboda.org
-DOMAIN-SUFFIX,rutracker.org
-DOMAIN-KEYWORD,4pda
-DOMAIN-SUFFIX,sora.com
-DOMAIN-SUFFIX,jetbrans.com
-DOMAIN-SUFFIX,chess.com
-DOMAIN-SUFFIX,myheritage.com
+# domain_custom.list — для Shadowrocket / репо rz6agx/iOS‑Rule  
+# NAME: Domain custom list  
+# AUTHOR: rz6agx  
+# REPO: https://github.com/rz6agx/iOS-Rule/  
+# UPDATED: 2025-11-19  
+# Назначение: кастомные домены, включаемые вручную  
+
+# --- Доменные суффиксы ---  
+DOMAIN-SUFFIX,abook-club.ru  
+DOMAIN-SUFFIX,crunchyroll.com  
+DOMAIN-SUFFIX,deezer.com  
+DOMAIN-SUFFIX,facebook.com  
+DOMAIN-SUFFIX,fb.com  
+DOMAIN-SUFFIX,fbcdn.net  
+DOMAIN-SUFFIX,fbsbx.com  
+DOMAIN-SUFFIX,flibusta.is  
+DOMAIN-SUFFIX,meduza.io  
+DOMAIN-SUFFIX,medium.com  
+DOMAIN-SUFFIX,netflix.com  
+DOMAIN-SUFFIX,habr.com  
+DOMAIN-SUFFIX,roskomsvoboda.org  
+DOMAIN-SUFFIX,rutracker.org  
+DOMAIN-SUFFIX,sora.com  
+DOMAIN-SUFFIX,jetbrans.com  
+DOMAIN-SUFFIX,chess.com  
+DOMAIN-SUFFIX,myheritage.com  
+
+# --- Ключевые слова в доменах ---  
+DOMAIN-KEYWORD,4pda  
+
+# --- IPv4 CIDR (примерные диапазоны для некоторых доменов) ---  
+# Netflix — диапазоны AS Netflix Streaming Services Inc (AS40027)  [oai_citation:0‡ipv4.bgp.he.net](https://ipv4.bgp.he.net/AS40027)  
+IP‑CIDR,45.57.8.0/23  
+IP‑CIDR,45.57.40.0/23  
+IP‑CIDR,23.246.0.0/18   [oai_citation:1‡ipinfo.io](https://ipinfo.io/AS2906/23.246.54.0/24)  
+IP‑CIDR,69.53.224.0/19  [oai_citation:2‡whois.ipip.net](https://whois.ipip.net/AS2906/69.53.244.0/24)  
+
+# --- IPv6 CIDR ---  
+# IPv6‑префиксы Netflix (из Open Connect / AS)  [oai_citation:3‡openconnect.netflix.com](https://openconnect.netflix.com/deploymentguide.pdf)  
+IP‑CIDR6,2620:1f::/32  

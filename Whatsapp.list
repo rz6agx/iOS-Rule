@@ -1,57 +1,31 @@
-# WhatsApp.list — для Shadowrocket / репо rz6agx/iOS-Rule
-# Источники:
-#   - https://github.com/HybridNetworks/whatsapp-cidr
-#   - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Whatsapp
-# Дата обновления: 2025-10-26
+# WhatsApp.list — для Shadowrocket / репо rz6agx/iOS‑Rule  
+# Источники:  
+#   - IP‑lookup.org — Whatsapp.com диапазоны  [oai_citation:0‡IP Lookup](https://www.ip-lookup.org/location/Whatsapp.com)  
+#   - NetworksDB — WhatsApp Inc сеть  [oai_citation:1‡networksdb.io](https://networksdb.io/network/whatsappinc)  
+#   - IPIP — диапазон 66.111.49.0/24 для AS11917 (WHATSAPP)  [oai_citation:2‡whois.ipip.net](https://whois.ipip.net/AS11917/66.111.49.0/24)  
+#   - DNS AAAA запись WhatsApp.com для IPv6  [oai_citation:3‡IP Lookup](https://www.ip-lookup.org/dns-lookup/Whatsapp.com)  
+# Дата обновления: 2025-11-19  
 
-# --- Доменные суффиксы ---
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-SUFFIX,whatsapp.biz
-DOMAIN-SUFFIX,whatsapp.org
-DOMAIN-SUFFIX,whatsappbrand.com
-DOMAIN-SUFFIX,wa.me
-DOMAIN-SUFFIX,whatsapp.cc
-DOMAIN-SUFFIX,whatsapp.tv
-DOMAIN-SUFFIX,whatsapp.info
+# --- Доменные суффиксы ---  
+DOMAIN-SUFFIX,whatsapp.com  
+DOMAIN-SUFFIX,whatsapp.net  
+DOMAIN-SUFFIX,chat.whatsapp.com  
+DOMAIN-SUFFIX,mmg.whatsapp.com  
 
-# --- Поддомены мультимедиа и CDN ---
-DOMAIN-SUFFIX,cdn.whatsapp.net
-DOMAIN-SUFFIX,media.whatsapp.net
-DOMAIN-SUFFIX,static.whatsapp.net
-DOMAIN-SUFFIX,scontent.whatsapp.net
-DOMAIN-SUFFIX,mmg.whatsapp.net
-DOMAIN-SUFFIX,mmg-fna.whatsapp.net
-DOMAIN-SUFFIX,media-*.cdn.whatsapp.net
+# --- Точные домены ---  
+DOMAIN,web.whatsapp.com  
+DOMAIN,api.whatsapp.com  
+DOMAIN,wa.me  
+DOMAIN,pps.whatsapp.net  
+DOMAIN,crashlogs.whatsapp.net  
+DOMAIN,graph.whatsapp.com  
+DOMAIN,G.whatsapp.net  
+DOMAIN,V.whatsapp.com  
 
-# --- Точные домены ---
-DOMAIN,api.whatsapp.com
-DOMAIN,web.whatsapp.com
-DOMAIN,chat.whatsapp.com
-DOMAIN,graph.facebook.com
-DOMAIN,graph.whatsapp.com
-DOMAIN,business.whatsapp.com
-DOMAIN,s.whatsapp.net
+# --- IPv4 CIDR ---  
+IP‑CIDR,57.144.168.0/21  # диапазон, в котором находится whatsapp-cdn  [oai_citation:4‡IP Lookup](https://www.ip-lookup.org/location/Whatsapp.com)  
+IP‑CIDR,66.111.48.0/22  # AS11917 — WhatsApp выделенный пул  [oai_citation:5‡whois.ipip.net](https://whois.ipip.net/AS11917/66.111.49.0/24)  
+IP‑CIDR,50.197.153.120/29  # сеть из WhatsAppInc по данным NetworksDB  [oai_citation:6‡networksdb.io](https://networksdb.io/network/whatsappinc)  
 
-# --- IPv4 CIDR (актуальные диапазоны WhatsApp / Meta) ---
-IP-CIDR,31.13.24.0/21
-IP-CIDR,31.13.64.0/18
-IP-CIDR,45.64.40.0/22
-IP-CIDR,66.111.48.0/22
-IP-CIDR,66.220.144.0/20
-IP-CIDR,69.63.176.0/20
-IP-CIDR,69.171.224.0/19
-IP-CIDR,74.119.76.0/22
-IP-CIDR,103.4.96.0/22
-IP-CIDR,129.134.0.0/17
-IP-CIDR,157.240.0.0/16
-IP-CIDR,173.252.64.0/19
-IP-CIDR,179.60.192.0/22
-IP-CIDR,185.60.216.0/22
-IP-CIDR,204.15.20.0/22
-IP-CIDR,31.13.0.0/16
-
-# --- IPv6 (Meta / WhatsApp) ---
-IP-CIDR6,2a03:2880::/32
-IP-CIDR6,2a03:2880:f000::/36
-IP-CIDR6,2a03:2880:10::/36
+# --- IPv6 CIDR ---  
+IP‑CIDR6,2a03:2880:f356:120:face:b00c::/64  # IPv6-адрес WhatsApp.com  [oai_citation:7‡IP Lookup](https://www.ip-lookup.org/dns-lookup/Whatsapp.com)  

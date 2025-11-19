@@ -1,27 +1,27 @@
-# NAME: Gemini
-# AUTHOR: rz6agx
-# REPO: https://github.com/rz6agx/iOS-Rule/
-# UPDATED: 2024-12-17
-DOMAIN,play.google.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,clients6.google.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,ai.google.com
-DOMAIN-SUFFIX,google.dev
-DOMAIN-SUFFIX,google.dev
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gemini.googleapis.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
+# Gemini.list — для Shadowrocket / репо rz6agx/iOS‑Rule  
+# Источники:  
+#   - Google Workspace: список хостов Gemini для фаервола  [oai_citation:0‡Справка Google](https://support.google.com/a/answer/15627649)  
+#   - Документация Azure API Management — OpenAI-совместимый Gemini API  [oai_citation:1‡Microsoft Learn](https://learn.microsoft.com/ru-ru/azure/api-management/openai-compatible-google-gemini-api)  
+#   - Информация о домене gemini.google.com  [oai_citation:2‡netify.ai](https://www.netify.ai/resources/hostnames/gemini.google.com)  
+# Дата обновления: 2025-11-19  
+
+# --- Доменные суффиксы ---  
+DOMAIN-SUFFIX,googleusercontent.com  
+DOMAIN-SUFFIX,googleapis.com  
+DOMAIN-SUFFIX,google.com  
+DOMAIN-SUFFIX,gstatic.com  
+
+# --- Точные домены ---  
+DOMAIN,gemini.google.com  
+DOMAIN,apis.google.com  
+DOMAIN,accounts.google.com  
+DOMAIN,jnn-pa.googleapis.com  
+DOMAIN,waa-pa.clients6.google.com  
+DOMAIN,lh3.googleusercontent.com  
+DOMAIN,lh5.googleusercontent.com  
+
+# --- IPv4 CIDR ---  
+# (примерные диапазоны Google — можно уточнять по актуальным данным)  
+IP-CIDR,142.250.0.0/15  
+IP-CIDR,142.251.0.0/16  
+IP-CIDR,142.252.0.0/15

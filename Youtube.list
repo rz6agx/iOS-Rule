@@ -1,18 +1,46 @@
-# NAME: YouTube
-# AUTHOR: rz6agx
-# REPO: https://github.com/rz6agx/iOS-Rule/
-# UPDATED: 2024-12-17
+# YouTube.list — для Shadowrocket / репо rz6agx/iOS‑Rule
+# Источники:  
+#   - BGP-префиксы ASN AS36040 “YOUTUBE” (Google LLC) ([whois.ipip.net](https://whois.ipip.net/AS36040)  
+#   - Google / YouTube домены ([ip-lookup.org](https://www.ip-lookup.org/location/Youtube-ui.l.google.com))  
+# Дата обновления: 2025-11-19
+
+# --- Доменные суффиксы ---
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,i.ytimg.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,yt3.ggpht.com
-DOMAIN-SUFFIX,youtube.googleapis.com
-DOMAIN-KEYWORD,googlevideo
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,wide-youtube.l.google.com
+DOMAIN-SUFFIX,ytapis.google.com
+
+# --- Точные домены ---
+DOMAIN,m.youtube.com
+DOMAIN,studio.youtube.com
+DOMAIN,accounts.youtube.com
+DOMAIN,manifest.googlevideo.com
+
+# --- IPv4 CIDR (YouTube, AS36040) ---
+IP-CIDR,64.15.112.0/24
+IP-CIDR,64.15.114.0/24
+IP-CIDR,64.15.115.0/24
+IP-CIDR,64.15.118.0/24
+IP-CIDR,64.15.119.0/24
+IP-CIDR,64.15.121.0/24
+IP-CIDR,64.15.123.0/24
+IP-CIDR,64.15.126.0/24
+IP-CIDR,104.237.160.0/19
+IP-CIDR,104.237.163.0/24
+IP-CIDR,104.237.164.0/24
+IP-CIDR,104.237.167.0/24
+IP-CIDR,104.237.190.0/24
+IP-CIDR,208.117.224.0/19
+IP-CIDR,208.117.251.0/24
+IP-CIDR,65.19.244.0/23
+
+# --- IPv6 CIDR (YouTube, AS36040) ---
+IP-CIDR6,2620:11a:a000::/40
+IP-CIDR6,2620:11a:a037::/48

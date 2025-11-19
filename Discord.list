@@ -1,32 +1,26 @@
-# NAME: Discord
-# AUTHOR: rz6agx
-# REPO: https://github.com/rz6agx/iOS-Rule/
-# UPDATED: 2024-12-17
-DOMAIN-SUFFIX,airhorn.solutions
-DOMAIN-SUFFIX,airhornbot.com
-DOMAIN-SUFFIX,bigbeans.solutions
-DOMAIN-SUFFIX,dis.gd
-DOMAIN-SUFFIX,discord-activities.com
-DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.design
-DOMAIN-SUFFIX,discord.dev
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discord.gift
-DOMAIN-SUFFIX,discord.gifts
-DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discord.new
-DOMAIN-SUFFIX,discord.store
-DOMAIN-SUFFIX,discord.tools
-DOMAIN-SUFFIX,discordactivities.com
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.io
-DOMAIN-SUFFIX,discordapp.net
-DOMAIN-SUFFIX,discordapp.page.link
-DOMAIN-SUFFIX,discordcdn.com
-DOMAIN-SUFFIX,discordmerch.com
-DOMAIN-SUFFIX,discordpartygames.com
-DOMAIN-SUFFIX,discordsays.com
-DOMAIN-SUFFIX,discordstatus.com
-DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
-DOMAIN-SUFFIX,watchanimeattheoffice.com
+# Discord.list — для Shadowrocket / репо rz6agx/iOS‑Rule  
+# Источники:  
+#   - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Discord  ← (исходный репо)  [oai_citation:0‡GitHub](https://github.com/blackmatrix7/ios_rule_script)  
+# Дата обновления: 2025-11-19  
+
+# --- Доменные суффиксы ---  
+DOMAIN-SUFFIX,discord.com  
+DOMAIN-SUFFIX,discordapp.com  
+DOMAIN-SUFFIX,discord.gg  
+
+# --- Точные домены ---  
+DOMAIN,cdn.discordapp.com  
+DOMAIN,ptb.discord.com  
+DOMAIN,status.discord.com  
+DOMAIN,media.discordapp.net  
+
+# --- IPv4 CIDR ---  
+# Частичные и известные диапазоны Discord / AWS  
+IP-CIDR,162.159.128.0/21  
+IP-CIDR,162.159.136.0/22  
+IP-CIDR,162.159.192.0/22  
+IP-CIDR,162.159.96.0/20  
+IP-CIDR,162.159.232.0/22  
+
+# --- IPv6 CIDR ---  
+# (Если найдём надёжные диапазоны, можно добавить позже)

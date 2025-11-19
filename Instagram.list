@@ -1,8 +1,27 @@
-# NAME: Instagram
-# AUTHOR: rz6agx
-# REPO: https://github.com/rz6agx/iOS-Rule/
-# UPDATED: 2024-12-17
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagr.am
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-KEYWORD,instagram
+# Instagram.list — для Shadowrocket / репо rz6agx/iOS‑Rule  
+# Источники:  
+#   - instagram.com и поддомены  
+#   - публичные IP‑данные Instagram / Facebook CDN / хостинга  
+#   - данные с ip‑трекеров и WHOIS  
+# Дата обновления: 2025-11-19  
+
+# --- Доменные суффиксы ---  
+DOMAIN-SUFFIX,instagram.com  
+DOMAIN-SUFFIX,cdninstagram.com  
+DOMAIN-SUFFIX,facebook.com  # часть ресурсов Instagram может идти через Facebook CDN  
+
+# --- Точные домены ---  
+DOMAIN,i.instagram.com  
+DOMAIN,graph.instagram.com  
+DOMAIN,api.instagram.com  
+DOMAIN,help.instagram.com  
+DOMAIN,platform.instagram.com  
+
+# --- IPv4 CIDR ---  
+# Примеры известных диапазонов Instagram / Facebook CDN  
+IP-CIDR,31.13.64.0/18  # диапазон Facebook / Instagram (пример) – один из IP-пула  [oai_citation:0‡ip-tracker.org](https://www.ip-tracker.org/lookup.php?ip=Maps.instagram.com)  
+IP-CIDR,157.240.0.0/17  # диапазон, охватывающий Instagram API и другие сервисы  [oai_citation:1‡api.urlscan.io](https://api.urlscan.io/domain/api.instagram.com)  
+IP-CIDR,179.60.192.0/22  # диапазон хостинга Instagram по данным whois  [oai_citation:2‡myip.ms](https://myip.ms/instagram.com)  
+
+# --- IPv6 CIDR ---  
+# (пока не добавлено — нуждаются в проверке)

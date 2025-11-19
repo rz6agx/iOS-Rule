@@ -1,41 +1,45 @@
-# NAME: OpenAI
-# AUTHOR: rz6agx
-# REPO: https://github.com/rz6agx/iOS-Rule/
-# UPDATED: 2024-12-17
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,gemini.google.com
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-SUFFIX,ios.chat.openai.com
-DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
+# OpenAI.list — для Shadowrocket / репо rz6agx/iOS‑Rule  
+# Источники:  
+#   - Рекомендации OpenAI по allowlist доменов ChatGPT / OpenAI  [oai_citation:0‡OpenAI Help Center](https://help.openai.com/en/articles/9247338)  
+#   - ipranges (OpenAI / GPTBot) проект lord‑alfred  [oai_citation:1‡GitHub](https://github.com/lord-alfred/ipranges)  
+#   - Информация о диапазоне openai.com через Cloudflare  [oai_citation:2‡IP Lookup](https://www.ip-lookup.org/location/Openai.com)  
+# Дата обновления: 2025-11-19  
+
+# --- Доменные суффиксы ---  
+DOMAIN-SUFFIX,openai.com  
+DOMAIN-SUFFIX,auth.openai.com  
+DOMAIN-SUFFIX,chat.openai.com  
+DOMAIN-SUFFIX,featuregates.org  
+DOMAIN-SUFFIX,intercom.io  
+DOMAIN-SUFFIX,intercomcdn.com  
+DOMAIN-SUFFIX,oaistatic.com  
+DOMAIN-SUFFIX,oaiusercontent.com  
+DOMAIN-SUFFIX,statsig.com  
+DOMAIN-SUFFIX,statsigapi.net  
+DOMAIN-SUFFIX,chatgpt.com  
+DOMAIN-SUFFIX,ct.sendgrid.net  
+
+# --- Точные домены ---  
+DOMAIN,auth0.openai.com  
+DOMAIN,setup.auth.openai.com  
+DOMAIN,desktop.chat.openai.com  
+DOMAIN,ios.chat.openai.com  
+DOMAIN,android.chat.openai.com  
+
+# --- IPv4 CIDR ---  
+# Основной хостинг openai.com через Cloudflare [oai_citation:3‡MyIP.ms](https://myip.ms/openai.com)  
+IP‑CIDR,104.16.0.0/12  
+
+# Диапазоны GPTBot (OpenAI crawler) из ipranges проекта [oai_citation:4‡GitHub](https://github.com/lord-alfred/ipranges)  
+IP‑CIDR,4.227.36.0/25  
+IP‑CIDR,20.125.66.80/28  
+IP‑CIDR,20.171.206.0/23  
+IP‑CIDR,52.230.152.0/24  
+IP‑CIDR,132.196.86.0/24  
+IP‑CIDR,172.182.202.0/25  
+IP‑CIDR,172.182.204.0/24  
+IP‑CIDR,172.182.207.0/25  
+IP‑CIDR,172.182.214.0/23  
+
+# --- IPv6 CIDR ---  
+# (Нет надёжных / устойчивых данных в открытых источниках на текущий момент)
