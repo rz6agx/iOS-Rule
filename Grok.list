@@ -1,0 +1,23 @@
+# Grok.list — для Shadowrocket / репо rz6agx/iOS‑Rule
+# Источники:
+#   - Grok — чат‑бот от xAI, встроен в X, веб-приложение и мобильные приложения  [oai_citation:0‡Википедия](https://en.wikipedia.org/wiki/Grok_%28chatbot%29)
+#   - xAI (x.ai) — официальный сайт Grok  [oai_citation:1‡xAI](https://x.ai/)
+#   - Grok API (хостинг через xAI)  [oai_citation:2‡Grok AI](https://grokai.bot/api/)
+# Дата обновления: 2025-11-20
+
+# --- Доменные суффиксы ---
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,api.x.ai
+
+# --- Точные домены ---
+DOMAIN,x.ai
+DOMAIN,groksandbox.x.ai
+DOMAIN,app.grok.com
+DOMAIN,auth.x.ai
+
+# --- IPv4 CIDR ---
+# Не удалось найти стабильные публичные CIDR‑диапазоны, выделенные исключительно под Grok / xAI.
+
+# --- IPv6 CIDR ---
+# Нет надёжных публичных IPv6‑префиксов для Grok / xAI на текущий момент.
