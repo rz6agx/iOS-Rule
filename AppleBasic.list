@@ -1,0 +1,22 @@
+# AppleBasic.list — минимальный набор доменов Apple
+# Назначение: стриминг Apple Music + Apple Podcasts + загрузка в App Store
+# Дата обновления: 2025-11-21
+
+# --- Apple Music (стриминг) ---
+DOMAIN,aod-ssl.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+
+# --- Apple Podcasts (стриминг/манифесты) ---
+DOMAIN,podcasts.apple.com
+DOMAIN,podcasts.itunes.apple.com
+DOMAIN,audio-ssl.itunes.apple.com
+
+# --- App Store (критически необходимые домены) ---
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,iosapps.itunes.apple.com
+
+# --- Вспомогательно (Apple Music/Podcasts интерфейс) ---
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,music.apple.com
