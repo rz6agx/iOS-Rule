@@ -24,22 +24,4 @@ DOMAIN,auth0.openai.com
 DOMAIN,setup.auth.openai.com  
 DOMAIN,desktop.chat.openai.com  
 DOMAIN,ios.chat.openai.com  
-DOMAIN,android.chat.openai.com  
-
-# --- IPv4 CIDR ---  
-# Основной хостинг openai.com через Cloudflare [oai_citation:3‡MyIP.ms](https://myip.ms/openai.com)  
-IP‑CIDR,104.16.0.0/12  
-
-# Диапазоны GPTBot (OpenAI crawler) из ipranges проекта [oai_citation:4‡GitHub](https://github.com/lord-alfred/ipranges)  
-IP‑CIDR,4.227.36.0/25  
-IP‑CIDR,20.125.66.80/28  
-IP‑CIDR,20.171.206.0/23  
-IP‑CIDR,52.230.152.0/24  
-IP‑CIDR,132.196.86.0/24  
-IP‑CIDR,172.182.202.0/25  
-IP‑CIDR,172.182.204.0/24  
-IP‑CIDR,172.182.207.0/25  
-IP‑CIDR,172.182.214.0/23  
-
-# --- IPv6 CIDR ---  
-# (Нет надёжных / устойчивых данных в открытых источниках на текущий момент)
+DOMAIN,android.chat.openai.com
