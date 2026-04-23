@@ -24,17 +24,5 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,jetbrans.com  
 DOMAIN-SUFFIX,chess.com  
 DOMAIN-SUFFIX,myheritage.com  
-
-# --- Ключевые слова в доменах ---  
-DOMAIN-KEYWORD,4pda  
-
-# --- IPv4 CIDR (примерные диапазоны для некоторых доменов) ---  
-# Netflix — диапазоны AS Netflix Streaming Services Inc (AS40027)  [oai_citation:0‡ipv4.bgp.he.net](https://ipv4.bgp.he.net/AS40027)  
-IP‑CIDR,45.57.8.0/23  
-IP‑CIDR,45.57.40.0/23  
-IP‑CIDR,23.246.0.0/18   [oai_citation:1‡ipinfo.io](https://ipinfo.io/AS2906/23.246.54.0/24)  
-IP‑CIDR,69.53.224.0/19  [oai_citation:2‡whois.ipip.net](https://whois.ipip.net/AS2906/69.53.244.0/24)  
-
-# --- IPv6 CIDR ---  
-# IPv6‑префиксы Netflix (из Open Connect / AS)  [oai_citation:3‡openconnect.netflix.com](https://openconnect.netflix.com/deploymentguide.pdf)  
-IP‑CIDR6,2620:1f::/32  
+DOMAIN-SUFFIX,4pda.to
+DOMAIN-SUFFIX,searchfloor.org
