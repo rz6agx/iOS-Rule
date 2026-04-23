@@ -2,27 +2,29 @@
 # Источники: 
 #   - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket/Telegram
 #   - https://github.com/telegramcidr/telegramcidr
-# Дата обновления: 2025-10-26
-
-# --- Доменные суффиксы ---
-DOMAIN-SUFFIX,telegram.org
+# Дата обновления: 2026-04-23
+DOMAIN,api.imem.app
+DOMAIN,api.swiftgram.app
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,mbrx.app
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,stel.com
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,cdn-telegram.net
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,fragment.com
-DOMAIN-SUFFIX,ton.org
-DOMAIN-SUFFIX,toncdn.net
-
-# --- Точные домены ---
-DOMAIN,api.telegram.org
-DOMAIN,core.telegram.org
-DOMAIN,web.telegram.org
-DOMAIN,venus.web.telegram.org
-DOMAIN,pluto.web.telegram.org
-DOMAIN,aurora.web.telegram.org
-DOMAIN,static.tdesktop.com
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,usercontent.dev
+DOMAIN-KEYWORD,nicegram
