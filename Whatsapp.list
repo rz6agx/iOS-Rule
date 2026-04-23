@@ -21,11 +21,3 @@ DOMAIN,crashlogs.whatsapp.net
 DOMAIN,graph.whatsapp.com  
 DOMAIN,G.whatsapp.net  
 DOMAIN,V.whatsapp.com  
-
-# --- IPv4 CIDR ---  
-IP‑CIDR,57.144.168.0/21  # диапазон, в котором находится whatsapp-cdn  [oai_citation:4‡IP Lookup](https://www.ip-lookup.org/location/Whatsapp.com)  
-IP‑CIDR,66.111.48.0/22  # AS11917 — WhatsApp выделенный пул  [oai_citation:5‡whois.ipip.net](https://whois.ipip.net/AS11917/66.111.49.0/24)  
-IP‑CIDR,50.197.153.120/29  # сеть из WhatsAppInc по данным NetworksDB  [oai_citation:6‡networksdb.io](https://networksdb.io/network/whatsappinc)  
-
-# --- IPv6 CIDR ---  
-IP‑CIDR6,2a03:2880:f356:120:face:b00c::/64  # IPv6-адрес WhatsApp.com  [oai_citation:7‡IP Lookup](https://www.ip-lookup.org/dns-lookup/Whatsapp.com)  
