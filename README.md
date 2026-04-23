@@ -61,13 +61,21 @@ FINAL,DIRECT
 localhost = 127.0.0.1
 ```
 
-### How to Use `example.conf`:
-1. Download the [example.conf](https://raw.githubusercontent.com/rz6agx/iOS-Rule/refs/heads/main/example.conf) file from this repository.
-2. Import it into ShadowRocket:
-  - Open ShadowRocket.
-  - Go to Configuration > Import.
-  - Select the example.conf file.
-3. Activate the configuration and ensure all rules are loaded correctly.
+### How to Use `example.conf`
+
+1. Import the configuration into Shadowrocket:
+   - Open Shadowrocket  
+   - Go to **Configuration → Import → Import from URL**  
+   - Paste:  
+     `https://raw.githubusercontent.com/rz6agx/iOS-Rule/refs/heads/main/example.conf`
+
+2. Select the imported configuration and enable it.
+
+3. Update the configuration:
+   - Long-press `example.conf` in the list  
+   - Tap **Update**
+
+4. (Optional) Enable Auto-Update in configuration settings.
 
 ### Key Features of `example.conf`:
 - General Settings:
