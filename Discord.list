@@ -12,15 +12,4 @@ DOMAIN-SUFFIX,discord.gg
 DOMAIN,cdn.discordapp.com  
 DOMAIN,ptb.discord.com  
 DOMAIN,status.discord.com  
-DOMAIN,media.discordapp.net  
-
-# --- IPv4 CIDR ---  
-# Частичные и известные диапазоны Discord / AWS  
-IP-CIDR,162.159.128.0/21  
-IP-CIDR,162.159.136.0/22  
-IP-CIDR,162.159.192.0/22  
-IP-CIDR,162.159.96.0/20  
-IP-CIDR,162.159.232.0/22  
-
-# --- IPv6 CIDR ---  
-# (Если найдём надёжные диапазоны, можно добавить позже)
+DOMAIN,media.discordapp.net
