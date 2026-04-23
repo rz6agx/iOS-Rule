@@ -1,3 +1,6 @@
+# Source: https://core.telegram.org/resources/cidr.txt
+# Update manually (weekly)
+# curl -s https://core.telegram.org/resources/cidr.txt
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,telegra.ph
