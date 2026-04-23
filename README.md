@@ -65,7 +65,8 @@ localhost = 127.0.0.1
 
 1. Import the configuration into Shadowrocket:
    - Open Shadowrocket  
-   - Go to **Configuration → Import → Import from URL**  
+   - Go to **Config**  
+   - Tap the **+** button
    - Paste:  
      `https://raw.githubusercontent.com/rz6agx/iOS-Rule/refs/heads/main/example.conf`
 
