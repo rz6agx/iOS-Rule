@@ -18,10 +18,4 @@ DOMAIN,accounts.google.com
 DOMAIN,jnn-pa.googleapis.com  
 DOMAIN,waa-pa.clients6.google.com  
 DOMAIN,lh3.googleusercontent.com  
-DOMAIN,lh5.googleusercontent.com  
-
-# --- IPv4 CIDR ---  
-# (примерные диапазоны Google — можно уточнять по актуальным данным)  
-IP-CIDR,142.250.0.0/15  
-IP-CIDR,142.251.0.0/16  
-IP-CIDR,142.252.0.0/15
+DOMAIN,lh5.googleusercontent.com
