@@ -2,28 +2,26 @@
 # NAME: Domain custom list  
 # AUTHOR: rz6agx  
 # REPO: https://github.com/rz6agx/iOS-Rule/  
-# UPDATED: 2025-11-19  
+# UPDATED: 2026-04-24 
 # Назначение: кастомные домены, включаемые вручную  
 
 # --- Доменные суффиксы ---  
-DOMAIN-SUFFIX,abook-club.ru  
-DOMAIN-SUFFIX,crunchyroll.com  
-DOMAIN-SUFFIX,deezer.com  
-DOMAIN-SUFFIX,facebook.com  
-DOMAIN-SUFFIX,fb.com  
-DOMAIN-SUFFIX,fbcdn.net  
-DOMAIN-SUFFIX,fbsbx.com  
-DOMAIN-SUFFIX,flibusta.is  
-DOMAIN-SUFFIX,meduza.io  
-DOMAIN-SUFFIX,medium.com  
-DOMAIN-SUFFIX,netflix.com  
-DOMAIN-SUFFIX,habr.com  
-DOMAIN-SUFFIX,roskomsvoboda.org  
-DOMAIN-SUFFIX,rutracker.org  
-DOMAIN-SUFFIX,sora.com  
-DOMAIN-SUFFIX,jetbrans.com  
-DOMAIN-SUFFIX,chess.com  
-DOMAIN-SUFFIX,myheritage.com  
+DOMAIN-SUFFIX,abook-club.ru
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,flibusta.is
+DOMAIN-SUFFIX,meduza.io
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,habr.com
+DOMAIN-SUFFIX,roskomsvoboda.org
+DOMAIN-SUFFIX,rutracker.org
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,jetbrans.com
+DOMAIN-SUFFIX,chess.com
+DOMAIN-SUFFIX,myheritage.com
 DOMAIN-SUFFIX,4pda.to
 DOMAIN-SUFFIX,searchfloor.org
-DOMAIN-SUFFIX,x.com
