@@ -83,7 +83,7 @@ localhost = 127.0.0.1
   - Disables IPv6 (ipv6 = false).
   - Bypasses system proxy settings (bypass-system = true).
   - Skips proxy for local networks and Apple services (skip-proxy and bypass-tun).
-  - Uses Yandex DNS servers (dns-server = 77.88.8.8, 77.88.8.1).
+  - Uses DNS servers (https://1.1.1.1/dns-query, https://8.8.8.8/dns-query).
 
 - Rule Sets:
   - Loads multiple rule sets from this repository (e.g., domain_custom.list, Copilot.list, Instagram.list, etc.).
