@@ -8,7 +8,6 @@
 # --- Доменные суффиксы ---  
 DOMAIN-SUFFIX,abook-club.ru
 DOMAIN-SUFFIX,crunchyroll.com
-DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fbcdn.net
@@ -17,7 +16,6 @@ DOMAIN-SUFFIX,flibusta.is
 DOMAIN-SUFFIX,meduza.io
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,habr.com
-DOMAIN-SUFFIX,roskomsvoboda.org
 DOMAIN-SUFFIX,rutracker.org
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,jetbrans.com
@@ -29,3 +27,4 @@ DOMAIN-SUFFIX,ntc.party
 DOMAIN-SUFFIX,rifty.org
 DOMAIN-SUFFIX,amnezia.org
 DOMAIN-SUFFIX,coteditor.com
+DOMAIN-SUFFIX,transistor.fm
